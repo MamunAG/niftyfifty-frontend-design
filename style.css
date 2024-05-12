@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* main nav================================================ */
+.site-logo {
+    width: 110px;
+    height: auto;
+    /* background-color: aquamarine; */
+}
+
+.site-logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.site-search {
+    text-align: center;
+}
+
+.site-search input {
+    width: 85%;
+    padding: 0px 15px;
+    height: 46px;
+    border-radius: 25px;
+    font-size: 14px;
+    outline: none;
+}
+
+.acc-wish-shop-container img {
+    width: 25px;
+    height: 30px;
+    margin-right: 13px;
+}
+
+.shop-container {
+    position: relative;
+}
+
+.shop-container a img {
+    width: 20px;
+    height: 25px;
+}
+
+.shop-container p {
+    position: absolute;
+    top: -1px;
+    inset-inline-end: 7px;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+}
+
+.taka-sign {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* end main nav================================================ */
+
+/* sub nav================================================ */
+.sub-nav {
+    background-color: #D9D9D9;
+    text-align: center;
+}
+
+.sub-nav ul {
+    list-style: none;
+}
+
+.sub-nav ul li {
+    display: inline-block;
+    padding: 17px 7px;
+}
+
+.sub-nav ul li a {
+    text-decoration: none;
+    color: #333232;
+    font-weight: 500;
+}
+
+/* end sub nav================================================ */
