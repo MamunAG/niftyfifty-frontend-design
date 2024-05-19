@@ -1,0 +1,130 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.product-image {
+    display: flex;
+
+    .theme-image {
+        .image-container {
+            max-height: 330px;
+            overflow: auto;
+            scrollbar-width: none;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+
+    .main-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .left-arrow {
+            width: 40px;
+            height: 50px;
+            transition: all .5s ease-in-out;
+            position: absolute;
+            left: 0px;
+            opacity: 1;
+            font-size: 5rem;
+            color: rgb(80, 80, 80);
+            margin: 0;
+            padding: 0;
+            /* background-color: aqua; */
+        }
+
+        .right-arrow {
+            width: 40px;
+            height: 50px;
+            transition: all .5s ease-in-out;
+            position: absolute;
+            right: 7px;
+            font-size: 5rem;
+            opacity: 0;
+            color: rgb(80, 80, 80);
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    .main-image:hover .left-arrow,
+    .right-arrow {
+        opacity: 1;
+        margin-left: 20px;
+    }
+
+    .main-image:hover .right-arrow {
+        opacity: 1;
+        margin-right: 13px;
+    }
+
+
+}
+
+
+
+.image-container img {
+    height: 107px;
+}
+
+.main-image {}
+
+.product-details {
+    color: green;
+
+    h1 {
+        color: aqua;
+    }
+}
+
+
+.color {
+    display: flex;
+}
+
+.color-sample img {
+    width: 45px;
+}
+
+.quantity {
+    display: flex;
+    margin: 10px 0;
+}
+
+.quantity button,
+.quantity input {
+    margin: 0;
+    border: 1px solid lightgrey;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.quantity input {
+    border-left: 0px solid lightgrey;
+    border-right: 0px solid lightgrey;
+}
+
+.quantity button:first-child {
+    border-radius: 50% 0 0 50%;
+}
+
+.quantity button:last-child {
+    border-radius: 0 50% 50% 0;
+}
+
+.quantity input {
+    margin: 0;
+    width: 30px;
+    text-align: center;
+}

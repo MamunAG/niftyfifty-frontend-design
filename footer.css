@@ -1,0 +1,26 @@
+/* footer */
+.footer-item h1 {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-item ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-item ul li {
+    line-height: 3;
+    color: #fff;
+}
+
+.footer-item ul li a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* end footer */

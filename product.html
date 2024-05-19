@@ -17,15 +17,6 @@
     />
     <!-- end bootstrap -->
 
-    <!-- fontawesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
-      integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- end fontawesome -->
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,8 +36,20 @@
     />
     <!-- end tiny slider -->
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsibe.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- end fontawesome -->
+
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="product.css" />
   </head>
   <body>
     <div class="container-fluid m-0 p-0">
@@ -233,303 +236,79 @@
         </ul>
       </nav>
       <!-- end Main nav================================================= -->
-      <div class="container text-center hero">
-        <a
-          href="https://niftyfifty.shop/product-category/all-product/"
-          style="width: auto; height: auto"
-        >
-          <img
-            fetchpriority="high"
-            decoding="async"
-            src="https://niftyfifty.shop/wp-content/uploads/2024/04/Web-Banner.png"
-            class="attachment-full size-full wp-image-26221"
-            alt=""
-            srcset="
-              https://niftyfifty.shop/wp-content/uploads/2024/04/Web-Banner.png          2796w,
-              https://niftyfifty.shop/wp-content/uploads/2024/04/Web-Banner-300x115.png   300w,
-              https://niftyfifty.shop/wp-content/uploads/2024/04/Web-Banner-1024x392.png 1024w,
-              https://niftyfifty.shop/wp-content/uploads/2024/04/Web-Banner-768x294.png   768w,
-              https://niftyfifty.shop/wp-content/uploads/2024/04/Web-Banner-1536x588.png 1536w,
-              https://niftyfifty.shop/wp-content/uploads/2024/04/Web-Banner-2048x784.png 2048w,
-              https://niftyfifty.shop/wp-content/uploads/2024/04/Web-Banner-600x230.png   600w,
-              https://niftyfifty.shop/wp-content/uploads/2024/04/Web-Banner-150x57.png    150w
-            "
-          />
-        </a>
-      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 product-image">
+            <div class="col-2 py-2 theme-image">
+              <div class="image-container">
+                <img src="/source/images/product/w1.jpg" alt="" srcset="" />
+                <img src="/source/images/product/w2.jpg" alt="" srcset="" />
+                <img src="/source/images/product/w3.jpg" alt="" srcset="" />
+                <img src="/source/images/product/w4.jpg" alt="" srcset="" />
+              </div>
+              <div class="image-nav my-2">
+                <button class="btn">Up</button>
+                <button class="btn">Down</button>
+              </div>
+            </div>
+            <div class="col-10 p-2 main-image">
+              <div class="left-arrow"><</div>
+              <img src="/source/images/product/w1.jpg" alt="" srcset="" />
+              <div class="right-arrow">></div>
+            </div>
+          </div>
 
-      <div class="container my-4">
-        <!-- order type================================================= -->
-        <div class="row order-type">
-          <div class="col-md-6 col-12">
-            <img src="/source/images/Pre-Order-06.jpg" alt="" />
-          </div>
-          <div class="col-md-6 col-12">
-            <img src="/source/images/Stock-Order.jpg" alt="" />
-          </div>
-        </div>
-        <!-- end order type================================================= -->
+          <div class="col-md-6 product-details">
+            <h1>Genuine Leather Long Wallet NFW10</h1>
+            <p>৳2,560</p>
 
-        <!-- catagory======================================================= -->
-        <div class="row catagory">
-          <div class="col-md-2 col-6">
-            <img src="/source/images/catagory/1.png" alt="" />
-          </div>
-          <div class="col-md-2 col-6">
-            <img src="/source/images/catagory/2-cat.png" alt="" />
-          </div>
-          <div class="col-md-2 col-6">
-            <img src="/source/images/catagory/3.png" alt="" />
-          </div>
-          <div class="col-md-2 col-6">
-            <img src="/source/images/catagory/4.png" alt="" />
-          </div>
-          <div class="col-md-2 col-6">
-            <img src="/source/images/catagory/5.png" alt="" />
-          </div>
-          <div class="col-md-2 col-6">
-            <img src="/source/images/catagory/6.png" alt="" />
-          </div>
-        </div>
-        <!-- end catagory======================================================= -->
-
-        <!-- men's footware ==================================================== -->
-        <div class="row my-4">
-          <h1 class="text-center my-4" style="font-weight: 600">
-            Men's Footwear
-          </h1>
-          <div class="menu-name">
             <ul>
-              <li><a href="#" role="button">casual shoes</a></li>
-              <li><a href="#" role="button">Martin Boots</a></li>
-              <li><a href="#" role="button">CHELSEA Boot</a></li>
-              <li><a href="#" role="button">Loafer</a></li>
-              <li><a href="#" role="button">Slippers</a></li>
+              <li>
+                <p>Order Type: Pre-Order</p>
+              </li>
+              <li>
+                <p>Delivery Time: 15-25 Working Days</p>
+              </li>
             </ul>
-          </div>
-          <div class="product-slider" id="productSlider">
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/1.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/2.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/3.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/4.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/5.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/6.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/7.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/8.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end men's footware -->
 
-        <!-- men's footware ==================================================== -->
-        <div class="row my-4">
-          <h1 class="text-center my-4" style="font-weight: 600">
-            Men's Wallets
-          </h1>
-          <div class="product-slider" id="walletSlider">
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/5.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
+            <div class="color">
+              <p>Color</p>
+              <div class="color-sample">
+                <img src="/source/images/product/w1.jpg" alt="" srcset="" />
+                <img src="/source/images/product/w2.jpg" alt="" srcset="" />
+                <img src="/source/images/product/w3.jpg" alt="" srcset="" />
               </div>
             </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/6.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
+            <hr />
+            <div class="cart">
+              <div class="quantity">
+                <button>-</button>
+                <input type="text" value="1" class="" />
+                <button>+</button>
               </div>
+              <button class="btn btn-outline-secondary px-4 py-2">
+                ADD TO CART
+              </button>
+              <button class="btn btn-dark px-4 py-2">BUY NOW</button>
             </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/7.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
+            <div class="add-to-wish">
+              <span>Add to wishlist</span>
             </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/8.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
+            <div class="proudct-watch">
+              <span><strong>17</strong> People watching this product now!</span>
             </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/1.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
+            <div class="sku">
+              <span><strong>SKU:</strong></span>
+              <p>645733876574</p>
             </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/2.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/3.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="card border-0" style="width: 100%">
-                <img
-                  src="/source/images/product/4.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Shoe name</h5>
-                  <p class="card-text">৳3,970</p>
-                </div>
-              </div>
+            <div class="catagories">
+              <span><strong>Categories:</strong></span>
+              <p>All Product, Pre Order, Wallet & Belts</p>
             </div>
           </div>
         </div>
-        <!-- end men's footware -->
       </div>
+      <hr />
     </div>
 
     <footer class="bg-dark m-0 p-0">
@@ -589,7 +368,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/fontawesome.min.js"
+      integrity="sha512-1M9vud0lqoXACA9QaA8IY8k1VR2dMJ2Qmqzt9pN2AH7eQHWpNsxBpaayV0kKkUsF7FLVQ2sA2SSc8w5VOm7/mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-    <script src="/script.js"></script>
+    <script src="/product.js"></script>
   </body>
 </html>
